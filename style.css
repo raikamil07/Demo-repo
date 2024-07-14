@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body {
+    line-height: 2;
+    max-width: 800px;
+    margin: 0 auto;
+}
+hr {
+    border: none;
+    height: 2px;
+    color: #333; 
+    background-color: #333;
+}
+h1 {
+    text-align: center;
+}
+#Namapribadi {
+    font-size: 40px;
+    color: #64aea6;
+}
+table {
+    margin: 0 auto;
+    background-color: #D4F1F4;
+    padding: 20px;
+    width: 700px;
+}
+.FotoPribadi {
+    width: 250px;
+    border-radius: 50% ;
+    border: 5px solid #64aea6;
+    margin-left: 100px;
+}
+.bagian {
+    color: #64aea6;
+    font-size: 25px;
+}
