@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>FORM BIODATA</h1>
+    <form>
+        <fieldset>
+            <legend>Nama Lengkap</legend>
+            <input type="text" name="nama" placeholder="contoh : Raihan Kamil" required>
+        </fieldset>
+        <fieldset>
+            <legend>Tempat, Tanggal Lahir</legend>
+            <input type="text" name="tempat"  placeholder="Kota/Kabupaten" required>
+            <input type="date" name="tanggal">
+        </fieldset>
+        <fieldset>
+            <legend>Alamat</legend>
+            <input type="text" placeholder="contoh : Gg.Pagarsih X" required>
+        </fieldset>
+        <fieldset>
+            <legend>Jenis Kelamin</legend>
+            <input type="radio" name="radiobutton" value="Pria" required>Pria
+            <input type="radio" name="radiobutton" value="Wanita" required>Wanita
+        </fieldset>
+        <fieldset>
+            <legend>Agama</legend>
+            <select name="agama" required>
+                <option value="Islam">Islam</option>
+                <option value="Kristen">Kristen</option>
+                <option value="Khatolik">Khatolik</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Budha">Budha</option>
+                <option value="Konghucu">Konghucu</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Sekolah</legend>
+            <input type="text" placeholder="contoh : SMKN 4 Bandung" required>
+        </fieldset>
+        <fieldset>
+            <legend>Hobi</legend>
+            <input type="text" placeholder="contoh : membaca dan berenang">
+        </fieldset>
+        <fieldset>
+            <input type="submit" value="submit">
+            <input type="reset" value="kembali">
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+H1{
+    text-align: center;
+}
+form{
+    width: 600px;
+    margin: 0 auto;
+    background-color: #F6EEE0;
+    border: 3px solid #C38370;
+}
+input{
+    border: 2px solid #A45C40;
+}
+input[type=text]{
+    width: 400px;
+}
+fieldset{
+    border: none;
+}
+input[type=submit]{
+    background-color: rgb(15, 241, 15);
+}
