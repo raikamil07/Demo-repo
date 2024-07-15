@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+body {
+    background-color: #C0A49A;
+}
+.header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgb(44, 44, 44);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.judul {
+    font-size: 40px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+.navbar a{
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    padding-left: 40px;
+    font-size: 20px;
+}
+.main{
+    border: 0;
+    padding: 200px 0px 0px 350px
+}
+#pribadi {
+    width: 400px ;
+    border-radius: 100px;
+    
+}
+#namapribadi {
+    vertical-align: bottom;
+    text-align: left;
+    font-size: 100px;
+    height: 300px;
+}
+#deskripsi {
+    vertical-align: top;
+    font-size: 20px;
+    width: 650px;
+}
+.penjelasan1{
+    position: fixed;
+    top: 70%;
+    left: 10%;
+    width: 80%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+#LOGOTTL {
+    width: 100px;
+}
+#BTTL{
+    vertical-align: bottom;
+}
+#ISIBTTL{
+    vertical-align: top;
+}
+
+#LOGOALMT {
+    width: 100px;
+}
+#ALMT{
+    vertical-align: bottom;
+}
+#ISIALMT{
+    vertical-align: top;
+}
+#agama {
+    padding-right: 20px;
+}
+#LOGOAGM {
+    width: 100px;
+}
+#AGM{
+    vertical-align: bottom;
+}
+#ISIAGM{
+    vertical-align: top;
+}
+.penjelasan2{
+    position: fixed;
+    top: 80%;
+    left: 10%;
+    width: 80%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+#LOGOSCH {
+    width: 100px;
+}
+#SCH{
+    vertical-align: bottom;
+}
+#ISISCH{
+    vertical-align: top;
+}
+#cita-cita{
+    padding-right: 105px;
+}
+#LOGOCT{
+    width: 100px;
+}
+#CT{
+    vertical-align: bottom;
+}
+#ISICT{
+    vertical-align: top;
+}
+
+#LOGOHBY {
+    width: 100px;
+}
+#HBY{
+    vertical-align: bottom;
+}
+#ISIHBY{
+    vertical-align: top;
+}
+.keluarga {
+    padding: 200px 0px 0px 700px;
+}
+
+#fpapa {
+    width: 300px;
+    border-radius: 30%;
+}
+#fmama {
+    width: 300px;
+    border-radius: 30%;
+}
+.ortu {
+    text-align: center;
+    font-size: 30px;
+}
+.namaortu {
+    font-size: 20px;
+    text-align: center;
+    height: 100px;
+}
+.pekerjaan {
+    font-size: 20px;
+    text-align: center;
+    height: 100px;
+}
+.notelp {
+    font-size: 20px;
+    text-align: center;
+    height: 100px;
+}
+.teman {
+    padding: 300px 0px 0px 350px
+}
+#fteman {
+    width: 500px ;
+    border-radius: 100px;
+    
+}
+#judulteman {
+    vertical-align: bottom;
+    text-align: left;
+    font-size: 100px;
+    height: 200px;
+    width: 800px;
+}
+#deskteman {
+    vertical-align: top;
+    font-size: 20px;
+    height: 300px;
+}
